@@ -6,7 +6,11 @@ This repository contains PowerShell scripts designed to assist with setting up a
 
 ### 1. 💽 `SetupDevDrive.ps1`
 
-This script sets up the Dev Drive by configuring trust settings, antivirus filters, and file system filters. It includes the following key functions:
+This script sets up the Dev Drive by configuring trust settings, antivirus filters, and file system filters. 
+
+Run from an elevated PS terminal. 
+
+It includes the following key functions:
 
 #### `Test-DevDriveTrusted`
 
@@ -29,6 +33,8 @@ This script sets up the Dev Drive by configuring trust settings, antivirus filte
 - Prompts the user to add default or custom filters to the Dev Drive.
 
 ### 2. 👤 `SetDevDriveOwner.ps1`
+
+Run from an elevated PS terminal. 
 
 This script configures ownership and permissions for a Dev Drive. It includes the following functions:
 
